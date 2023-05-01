@@ -14,19 +14,19 @@
     <li>
         <p>
             Conduct regular risk assessments to identify potential asset
-            security vulnerabilities.
+            security vulnerabilities (Feng et al, 2014).
         </p>
     </li>
     <li>
         <p>
             Develop and implement an asset management program to ensure that
-            all assets are properly tracked and managed.
+            all assets are properly tracked and managed (McLachlan, 2008).
         </p>
     </li>
     <li>
         <p>
             Implement access controls to ensure that only authorized personnel
-            have access to critical assets.
+            have access to critical assets (Ward and Smith, 2002).
         </p>
     </li>
     <li>
@@ -120,6 +120,9 @@ Da Veiga, A. and Eloff, J.H., 2010. A framework and assessment instrument for in
 Debar, H., 2000. An introduction to intrusion-detection systems. Proceedings of Connect, 2000
 </p>
 <p>
+Feng, N., Wang, H.J. and Li, M., 2014. A security risk analysis model for information systems: Causal relationships of risk factors and vulnerability propagation analysis. Information sciences, 256, pp.57-73.
+</p>
+<p>
 Sattarova Feruza, Y. and Kim, T.H., 2007. IT security review: Privacy, protection, access control, assurance and system security. International journal of multimedia and ubiquitous engineering, 2(2).
 </p>
 <p>
@@ -135,6 +138,9 @@ Stewart, J.M., 2013. Network Security, Firewalls and VPNs. Jones & Bartlett Publ
 Ma, Q., Schmidt, M.B. and Pearson, J.M., 2009. An Integrated Framework for Information Security Management. Review of Business, 30(1).
 </p>
 <p>
+McLachlan, P., 2018. Pocket CIO–The Guide to Successful IT Asset Management: Get to grips with the fundamentals of IT Asset Management, Software Asset Management, and Software License Compliance Audits with this guide. Packt Publishing Ltd.
+</p>
+<p>
 Pereira, T. and Santos, H.M.D., 2010. An audit framework to support information system security management. International Journal of Electronic Security and Digital Forensics, 3(3), pp.265-277. [online] Available from: <a href='https://www.inderscienceonline.com/doi/abs/10.1504/IJESDF.2010.038288'>https://www.inderscienceonline.com/doi/abs/10.1504/IJESDF.2010.038288</a> [Accessed 1 4 2023]
 </p>
 <p>
@@ -142,6 +148,9 @@ RedLegg, 2022. 6 Steps of vulnerability scanning best practices. [online] Availa
 </p>
 <p>
 Hawkins, S.M., Yen, D.C. and Chou, D.C., 2000. Disaster recovery planning: a strategy for data security. Information management & computer security, 8(5), pp.222-230. [online] Available from: <a href='https://www.emerald.com/insight/content/doi/10.1108/09685220010353150/full/html'>https://www.emerald.com/insight/content/doi/10.1108/09685220010353150/full/html</a> [Accessed 1 4 2023]
+</p>
+<p>
+Ward, P. and Smith, C.L., 2002. The development of access control policies for information technology systems. Computers & Security, 21(4), pp.356-371.
 </p>
     </div>
     <div class="col-sm-2">
