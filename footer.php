@@ -1,6 +1,8 @@
 <footer class="container-fluid text-center">
   <div class="copyright">
-    &copy; Copyright <strong><span>Cybersecurity Group 20, Bournemouth University. 2023</span></strong>. All Rights Reserved
+   <strong><span>Cybersecurity Group 20, Bournemouth University</span></strong><br /> 
+   All Rights Reserved <br />
+   &copy; Copyright 2023
   </div>
 </footer>
 

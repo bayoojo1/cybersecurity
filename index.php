@@ -6,8 +6,8 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1 style="text-align:center;">Cyberjacking Risk Assessment Tool</h1>
-      <p style="text-align:center;">This tool would help in assessing any organisation's risk level to Cryptojacking attack, and also provide recommendations on how they can mitigate the risk and improve their resilience to Cryptojacking attack.</p>
+      <h1 style="text-align:center;">Cryptojacking Risk Assessment Tool</h1>
+      <p style="text-align:center;">This tool would help in assessing any organisation risk level to Cryptojacking attack, and also provide recommendations on how they can mitigate the risk and improve their resilience to Cryptojacking attack.</p>
       <hr>
         <div class="jumbotron" style="background-color:#4da6ff; color:white;">
           <h3 style="text-align:center;">How To Use</h3>

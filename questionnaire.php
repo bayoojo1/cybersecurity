@@ -33,8 +33,8 @@
     </div>
     <div class="col-sm-8 text-left"> 
       <h1 style="text-align:center;">Questionnaire</h1>
-      <p>The questions below are based on research and analysis carried out on possible cryptojacking attack vectors, threat actors, vulnerabilities and posible mitigation actions. It covers the eight (8) domains of CISSP</p>
-      <p>Provide your answers, and follow through with the recommendations in other to achieve a more secured system for your organisation.</p>
+      <p>The questions below are based on research and analysis carried out on possible causes cryptojacking attack. It covers the eight (8) domains of CISSP</p>
+      <p>Provide your answers, and follow through with the recommendations in other to achieve a more security for your organisation.</p>
       <hr>
       
       <?php if(!empty($asset_securities) && (is_array($asset_securities))) : ?>
