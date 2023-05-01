@@ -6,97 +6,96 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Communication and Network Security</h1>
-      <p>This tool would help in assessing any organisation's risk level to Cryptojacking attack, and also provide recommendations on how they can mitigate the risk and improve their resilience to Cryptojacking attack.</p>
+      <h1 style="text-align:center;">Communication and Network Security</h1>
+      <p style="text-align:center;">List of possible actions your organisation can take in other to improve its resilience to cryptojacking attack.</p>
       <hr>
-      <h3>How To Use</h3>
       <ol>
-    <li>
-        <p>
-            Implement secure communication protocols, such as SSL/TLS, for all
-            network traffic to prevent eavesdropping and data interception (Adeyinka, 2008).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use strong authentication mechanisms, such as two-factor
-            authentication, to ensure that only authorized users have access to
-            the network (Ibrokhimov et al, 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement access controls to limit access to network resources to
-            only those users who require it (Sandhu et al, 1996).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement firewalls and other perimeter security measures to
-            protect the network from external threats (Fortinet 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly update and patch all network devices to ensure that they
-            are protected against known vulnerabilities (Brad, 2007).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use intrusion detection and prevention systems to monitor the
-            network for potential security breaches (Paloalto, 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use network segmentation to isolate critical assets and restrict
-            access to them (Klein, 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement network monitoring tools to detect and respond to
-            security incidents in real-time (González-Granadillo et al, 2021).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use strong encryption to protect data in transit and at rest (Ghouse et al, 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement a formal incident response plan to ensure that all
-            security incidents are quickly and effectively addressed (Scanfone et al, 2008).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly conduct vulnerability assessments and penetration testing
-            to identify potential security vulnerabilities in the network (Konstantinos, 2012).
-        </p>
-    </li>
-    <li>
-        <p>
-            Train employees on the importance of network security and how to
-            protect the network from security threats (Alshaikh, 2020).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement backup and disaster recovery procedures to ensure that
-            critical data can be quickly restored in the event of a security
-            breach or natural disaster (Hawkins et al, 2000).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement network access control to ensure that only authorized
-            devices can connect to the network (Annuar et al, 2013).
-        </p>
-    </li>
-    <li>
+        <li>
+            <p>
+                Implement secure communication protocols, such as SSL/TLS, for all
+                network traffic to prevent eavesdropping and data interception (Adeyinka, 2008).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use strong authentication mechanisms, such as two-factor
+                authentication, to ensure that only authorized users have access to
+                the network (Ibrokhimov et al, 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement access controls to limit access to network resources to
+                only those users who require it (Sandhu et al, 1996).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement firewalls and other perimeter security measures to
+                protect the network from external threats (Fortinet 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly update and patch all network devices to ensure that they
+                are protected against known vulnerabilities (Brad, 2007).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use intrusion detection and prevention systems to monitor the
+                network for potential security breaches (Paloalto, 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use network segmentation to isolate critical assets and restrict
+                access to them (Klein, 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement network monitoring tools to detect and respond to
+                security incidents in real-time (González-Granadillo et al, 2021).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use strong encryption to protect data in transit and at rest (Ghouse et al, 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement a formal incident response plan to ensure that all
+                security incidents are quickly and effectively addressed (Scanfone et al, 2008).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly conduct vulnerability assessments and penetration testing
+                to identify potential security vulnerabilities in the network (Konstantinos, 2012).
+            </p>
+        </li>
+        <li>
+            <p>
+                Train employees on the importance of network security and how to
+                protect the network from security threats (Alshaikh, 2020).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement backup and disaster recovery procedures to ensure that
+                critical data can be quickly restored in the event of a security
+                breach or natural disaster (Hawkins et al, 2000).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement network access control to ensure that only authorized
+                devices can connect to the network (Annuar et al, 2013).
+            </p>
+        </li>
+        <li>
         <p>
             Regularly review and update the network security controls in place
             to ensure that they are up-to-date and effective in protecting the

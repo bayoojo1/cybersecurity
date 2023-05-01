@@ -6,100 +6,99 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Security Assessment and Testing</h1>
-      <p>This tool would help in assessing any organisation's risk level to Cryptojacking attack, and also provide recommendations on how they can mitigate the risk and improve their resilience to Cryptojacking attack.</p>
+      <h1 style="text-align:center;">Security Assessment and Testing</h1>
+      <p style="text-align:center;">List of possible actions your organisation can take in other to improve its resilience to cryptojacking attack.</p>
       <hr>
-      <h3>How To Use</h3>
       <ol>
-    <li>
-        <p>
-            Perform regular security assessments to identify potential
-            vulnerabilities in the organization's security posture (Ilia 2018).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use penetration testing to identify potential vulnerabilities in
-            the organization's systems and applications (Konstantinos 2012).
-        </p>
-    </li>
-    <li>
-        <p>
-            Conduct vulnerability scanning to identify potential security
-            vulnerabilities in the organization's systems and applications (RedLegg 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use network and application security scanners to identify potential
-            security vulnerabilities in the organization's network and
-            applications (National Cyber Security Centre 2021).
-        </p>
-    </li>
-    <li>
-        <p>
-            Conduct social engineering testing to identify potential security
-            weaknesses in the organization's human resources (Cole 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use threat intelligence to identify potential threats and
-            vulnerabilities relevant to the organization (ISBuzz Staff, 2015).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use red teaming to test the organization's security defenses
-            against simulated attacks (Numen 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Conduct code reviews to identify potential security vulnerabilities
-            in software code (Thien, 2002).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement bug bounty programs to incentivize external security
-            researchers to identify and report potential security
-            vulnerabilities (Thomas and Andrew 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use security-focused design reviews to identify potential security
-            risks in new systems and applications (Paul, 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly conduct security awareness training for all employees to
-            educate them on security risks and how to protect the organization
-            from security threats (Jenn, 2022).
-        </p>
-    </li>
-    <li>
+        <li>
+            <p>
+                Perform regular security assessments to identify potential
+                vulnerabilities in the organization's security posture (Ilia 2018).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use penetration testing to identify potential vulnerabilities in
+                the organization's systems and applications (Konstantinos 2012).
+            </p>
+        </li>
+        <li>
+            <p>
+                Conduct vulnerability scanning to identify potential security
+                vulnerabilities in the organization's systems and applications (RedLegg 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use network and application security scanners to identify potential
+                security vulnerabilities in the organization's network and
+                applications (National Cyber Security Centre 2021).
+            </p>
+        </li>
+        <li>
+            <p>
+                Conduct social engineering testing to identify potential security
+                weaknesses in the organization's human resources (Cole 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use threat intelligence to identify potential threats and
+                vulnerabilities relevant to the organization (ISBuzz Staff, 2015).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use red teaming to test the organization's security defenses
+                against simulated attacks (Numen 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Conduct code reviews to identify potential security vulnerabilities
+                in software code (Thien, 2002).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement bug bounty programs to incentivize external security
+                researchers to identify and report potential security
+                vulnerabilities (Thomas and Andrew 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use security-focused design reviews to identify potential security
+                risks in new systems and applications (Paul, 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly conduct security awareness training for all employees to
+                educate them on security risks and how to protect the organization
+                from security threats (Jenn, 2022).
+            </p>
+        </li>
+        <li>
         <p>
             Use security metrics to measure the effectiveness of the
             organization's security posture and identify potential areas for
             improvement (ProServeIT, 2017).
         </p>
-    </li>
-    <li>
-        <p>
-            Use continuous monitoring to identify potential security incidents
-            in real-time (RiskOptics, 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement incident response plans to quickly and effectively
-            respond to security incidents (SecurityMetrics Inc, 2023).
-        </p>
-    </li>
-    <li>
+        </li>
+        <li>
+            <p>
+                Use continuous monitoring to identify potential security incidents
+                in real-time (RiskOptics, 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement incident response plans to quickly and effectively
+                respond to security incidents (SecurityMetrics Inc, 2023).
+            </p>
+        </li>
+        <li>
         <p>
             Regularly review and update the organization's security assessment
             and testing processes to ensure that they remain effective and

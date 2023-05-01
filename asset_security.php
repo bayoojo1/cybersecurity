@@ -6,98 +6,97 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Asset Security</h1>
-      <p>This tool would help in assessing any organisation's risk level to Cryptojacking attack, and also provide recommendations on how they can mitigate the risk and improve their resilience to Cryptojacking attack.</p>
+      <h1 style="text-align:center;">Asset Security</h1>
+      <p style="text-align:center;">List of possible actions your organisation can take in other to improve its resilience to cryptojacking attack.</p>
       <hr>
-      <h3>How To Use</h3>
       <ol>
-    <li>
-        <p>
-            Conduct regular risk assessments to identify potential asset
-            security vulnerabilities (Feng et al, 2014).
-        </p>
-    </li>
-    <li>
-        <p>
-            Develop and implement an asset management program to ensure that
-            all assets are properly tracked and managed (McLachlan, 2008).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement access controls to ensure that only authorized personnel
-            have access to critical assets (Ward and Smith, 2002).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use encryption to protect data on assets that are vulnerable to
-            theft or unauthorized access (Sattarova and Kim, 2007).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement strong authentication mechanisms to ensure that only
-            authorized users have access to critical assets (Campbell et al, 2003).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement physical security controls to protect assets from theft,
-            damage, or unauthorized access (Stallings, 2014).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use intrusion detection systems to monitor and alert security
-            personnel to any potential security breaches (Debar, 2000).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement firewalls and other network security measures to protect
-            assets from external threats (Stewart, 2013).
-        </p>
-    </li>
-    <li>
-        <p>
-            Conduct regular security audits to identify potential
-            vulnerabilities and weaknesses in the security system (Pereira and Santos, 2010).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement security policies and procedures to ensure that all
-            employees are aware of their responsibilities and obligations
-            regarding asset security (Da Veiga and Ellof, 2010).
-        </p>
-    </li>
-    <li>
-        <p>
-            Train employees on the importance of asset security and how to
-            protect critical assets from security threats (Alshaikh, 2020).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement backup and disaster recovery procedures to ensure that
-            critical assets can be quickly restored in the event of a security
-            breach or natural disaster (Hawkins et al, 2000).
-        </p>
-    </li>
-    <li>
-        <p>
-            Conduct regular vulnerability scans to identify and mitigate
-            potential security vulnerabilities in the IT infrastructure (RedLegg, 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement a formal incident response plan to ensure that all
-            security incidents are quickly and effectively addressed (Scanfone et al, 2008).
-        </p>
-    </li>
-    <li>
+        <li>
+            <p>
+                Conduct regular risk assessments to identify potential asset
+                security vulnerabilities (Feng et al, 2014).
+            </p>
+        </li>
+        <li>
+            <p>
+                Develop and implement an asset management program to ensure that
+                all assets are properly tracked and managed (McLachlan, 2008).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement access controls to ensure that only authorized personnel
+                have access to critical assets (Ward and Smith, 2002).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use encryption to protect data on assets that are vulnerable to
+                theft or unauthorized access (Sattarova and Kim, 2007).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement strong authentication mechanisms to ensure that only
+                authorized users have access to critical assets (Campbell et al, 2003).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement physical security controls to protect assets from theft,
+                damage, or unauthorized access (Stallings, 2014).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use intrusion detection systems to monitor and alert security
+                personnel to any potential security breaches (Debar, 2000).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement firewalls and other network security measures to protect
+                assets from external threats (Stewart, 2013).
+            </p>
+        </li>
+        <li>
+            <p>
+                Conduct regular security audits to identify potential
+                vulnerabilities and weaknesses in the security system (Pereira and Santos, 2010).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement security policies and procedures to ensure that all
+                employees are aware of their responsibilities and obligations
+                regarding asset security (Da Veiga and Ellof, 2010).
+            </p>
+        </li>
+        <li>
+            <p>
+                Train employees on the importance of asset security and how to
+                protect critical assets from security threats (Alshaikh, 2020).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement backup and disaster recovery procedures to ensure that
+                critical assets can be quickly restored in the event of a security
+                breach or natural disaster (Hawkins et al, 2000).
+            </p>
+        </li>
+        <li>
+            <p>
+                Conduct regular vulnerability scans to identify and mitigate
+                potential security vulnerabilities in the IT infrastructure (RedLegg, 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement a formal incident response plan to ensure that all
+                security incidents are quickly and effectively addressed (Scanfone et al, 2008).
+            </p>
+        </li>
+        <li>
         <p>
             Regularly review and update the security controls in place to
             ensure that they are up-to-date and effective in protecting

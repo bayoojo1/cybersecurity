@@ -6,89 +6,88 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Security Architecture and Engineering</h1>
-      <p>This tool would help in assessing any organisation's risk level to Cryptojacking attack, and also provide recommendations on how they can mitigate the risk and improve their resilience to Cryptojacking attack.</p>
+      <h1 style="text-align:center;">Security Architecture and Engineering</h1>
+      <p style="text-align:center;">List of possible actions your organisation can take in other to improve its resilience to cryptojacking attack.</p>
       <hr>
-      <h3>How To Use</h3>
       <ol>
-    <li>
-        <p>
-            Implement a secure software development lifecycle (SDLC) to ensure
-            that software is developed with security in mind from the start (Snyk Limited 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use secure coding practices to reduce the risk of vulnerabilities
-            in software code (Snyk Limited 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use static and dynamic code analysis tools to identify potential
-            security vulnerabilities in software code (Tom 2021).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement secure coding standards and guidelines to ensure that all
-            developers follow best practices for secure coding (Software Testing Help 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use threat modeling to identify potential security risks in
-            software design and architecture (Synopsis 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement secure network architecture to protect critical resources
-            from external threats (Vaadata 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use encryption to protect sensitive data in transit and at rest (NCSC 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use secure authentication and access control mechanisms to restrict
-            access to critical resources (NCSC 2021).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use firewalls and other network security measures to protect the
-            network from external threats (Fortinet 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement intrusion detection and prevention systems to monitor the
-            network for potential security breaches (Paloalto 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use security incident and event management (SIEM) systems to detect
-            and respond to security incidents in real-time (Microsoft 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly test and audit the security controls in place to identify
-            potential vulnerabilities and weaknesses (NCSC 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use secure hardware and firmware components to reduce the risk of
-            hardware-based vulnerabilities (Bret 2021).
-        </p>
-    </li>
-    <li>
+        <li>
+            <p>
+                Implement a secure software development lifecycle (SDLC) to ensure
+                that software is developed with security in mind from the start (Snyk Limited 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use secure coding practices to reduce the risk of vulnerabilities
+                in software code (Snyk Limited 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use static and dynamic code analysis tools to identify potential
+                security vulnerabilities in software code (Tom 2021).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement secure coding standards and guidelines to ensure that all
+                developers follow best practices for secure coding (Software Testing Help 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use threat modeling to identify potential security risks in
+                software design and architecture (Synopsis 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement secure network architecture to protect critical resources
+                from external threats (Vaadata 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use encryption to protect sensitive data in transit and at rest (NCSC 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use secure authentication and access control mechanisms to restrict
+                access to critical resources (NCSC 2021).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use firewalls and other network security measures to protect the
+                network from external threats (Fortinet 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement intrusion detection and prevention systems to monitor the
+                network for potential security breaches (Paloalto 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use security incident and event management (SIEM) systems to detect
+                and respond to security incidents in real-time (Microsoft 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly test and audit the security controls in place to identify
+                potential vulnerabilities and weaknesses (NCSC 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use secure hardware and firmware components to reduce the risk of
+                hardware-based vulnerabilities (Bret 2021).
+            </p>
+        </li>
+        <li>
         <p>
             Implement secure data storage practices to protect sensitive data
             at rest (Coos, 2021).

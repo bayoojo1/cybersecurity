@@ -6,96 +6,95 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>ID and Access Management</h1>
-      <p>This tool would help in assessing any organisation's risk level to Cryptojacking attack, and also provide recommendations on how they can mitigate the risk and improve their resilience to Cryptojacking attack.</p>
+      <h1 style="text-align:center;">ID and Access Management</h1>
+      <p style="text-align:center;">List of possible actions your organisation can take in other to improve its resilience to cryptojacking attack.</p>
       <hr>
-      <h3>How To Use</h3>
       <ol>
-    <li>
-        <p>
-            Implement a strong identity and access management (IAM) program to
-            manage user identities and access privileges (Mohammed et al, 2018).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use strong authentication mechanisms, such as two-factor
-            authentication, to ensure that only authorized users have access to
-            critical resources (Ibrokhimov et al, 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use role-based access controls (RBAC) to restrict access to
-            resources based on the user's job function (Covington et al, 2000).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement access controls to limit access to resources to only
-            those users who require it (Sandhu et al, 1996).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement password policies that require users to use strong
-            passwords and change them regularly (Summers and Bosworth, 2004).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly review and update access privileges to ensure that they
-            are appropriate for the user's job function (Sandhu et al, 1996).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement user activity monitoring to detect and respond to
-            unauthorized access attempts (Bejtlich, 2013).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement network segmentation to isolate critical resources and
-            restrict access to them (Klein, 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use encryption to protect sensitive data in transit and at rest (Ghouse et al, 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement single sign-on (SSO) to streamline the login process and
-            reduce the risk of password-based vulnerabilities (Chnitz, 2000).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement multi-factor authentication (MFA) for remote access to
-            critical resources (Ibrokhimov et al, 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly audit and review user accounts to identify and remove
-            inactive accounts and accounts with excessive privileges.
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement least privilege access to restrict user access to only
-            the minimum required resources (Lang and Schreiner, 2012).
-        </p>
-    </li>
-    <li>
-        <p>
-            Train employees on the importance of identity and access management
-            and how to protect their user accounts from security threats (Alshaikh, 2020).
-        </p>
-    </li>
-    <li>
+        <li>
+            <p>
+                Implement a strong identity and access management (IAM) program to
+                manage user identities and access privileges (Mohammed et al, 2018).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use strong authentication mechanisms, such as two-factor
+                authentication, to ensure that only authorized users have access to
+                critical resources (Ibrokhimov et al, 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use role-based access controls (RBAC) to restrict access to
+                resources based on the user's job function (Covington et al, 2000).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement access controls to limit access to resources to only
+                those users who require it (Sandhu et al, 1996).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement password policies that require users to use strong
+                passwords and change them regularly (Summers and Bosworth, 2004).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly review and update access privileges to ensure that they
+                are appropriate for the user's job function (Sandhu et al, 1996).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement user activity monitoring to detect and respond to
+                unauthorized access attempts (Bejtlich, 2013).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement network segmentation to isolate critical resources and
+                restrict access to them (Klein, 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use encryption to protect sensitive data in transit and at rest (Ghouse et al, 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement single sign-on (SSO) to streamline the login process and
+                reduce the risk of password-based vulnerabilities (Chnitz, 2000).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement multi-factor authentication (MFA) for remote access to
+                critical resources (Ibrokhimov et al, 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly audit and review user accounts to identify and remove
+                inactive accounts and accounts with excessive privileges.
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement least privilege access to restrict user access to only
+                the minimum required resources (Lang and Schreiner, 2012).
+            </p>
+        </li>
+        <li>
+            <p>
+                Train employees on the importance of identity and access management
+                and how to protect their user accounts from security threats (Alshaikh, 2020).
+            </p>
+        </li>
+        <li>
         <p>
             Regularly test and audit the identity and access management system
             to identify potential vulnerabilities and weaknesses (Shah and Mehtre, 2015).

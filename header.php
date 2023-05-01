@@ -19,15 +19,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.php">Group20</a>
+      <a class="navbar-brand" href="index.php">Group 20</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">Home</a></li>
-        <li><a href="questionnaire.php">Questionnaire</a></li>
+      <?php if (strpos($_SERVER['REQUEST_URI'], "index") !== false) : ?>
+        <li class="active"><a href="index.php">HOME</a></li>
+      <?php else : ?>
+        <li><a href="index.php">Home</a></li>
+      <?php endif; ?>
+      <?php if (strpos($_SERVER['REQUEST_URI'], "questionnaire") !== false) : ?>
+        <li class="active"><a href="questionnaire.php">QUESTIONNAIRE</a></li>
+      <?php else : ?>
+      <li><a href="questionnaire.php">Questionnaire</a></li>
+      <?php endif; ?>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
       </ul>
     </div>
   </div>

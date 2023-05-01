@@ -6,99 +6,98 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Security Operation</h1>
-      <p>This tool would help in assessing any organisation's risk level to Cryptojacking attack, and also provide recommendations on how they can mitigate the risk and improve their resilience to Cryptojacking attack.</p>
+      <h1 style="text-align:center;">Security Operation</h1>
+      <p style="text-align:center;">List of possible actions your organisation can take in other to improve its resilience to cryptojacking attack.</p>
       <hr>
-      <h3>How To Use</h3>
       <ol>
-    <li>
-        <p>
-            Establish a security operations center (SOC) to monitor the
-            organization's security posture and respond to security incidents (IBM 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement security information and event management (SIEM) systems
-            to collect and analyze security event data (Arnold, 2011).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use log aggregation tools to centralize security event logs for
-            analysis (Brain, 2017).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement security incident response plans to quickly and
-            effectively respond to security incidents (Paul et al, 2012).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use incident response playbooks to guide incident response
-            activities (Andreas, 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement security incident detection and response tools to
-            automatically detect and respond to security incidents (Threat intelligence, 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly conduct security awareness training for all employees to
-            educate them on security risks and how to protect the organization
-            from security threats (Jenn, 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use threat intelligence to identify potential threats and
-            vulnerabilities relevant to the organization (ISBuzz Staff, 2015).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use network and application security scanners to identify potential
-            security vulnerabilities in the organization's network and
-            applications (National Cyber Security Centre, 2021).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use penetration testing to identify potential vulnerabilities in
-            the organization's systems and applications (Konstantinos, 2012).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement security-focused design reviews to identify potential
-            security risks in new systems and applications (Paul, 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use security metrics to measure the effectiveness of the
-            organization's security posture and identify potential areas for
-            improvement (ProServeIT, 2017).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use continuous monitoring to identify potential security incidents
-            in real-time (RiskOptics, 2023).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement incident response plans to quickly and effectively
-            respond to security incidents (SecurityMetrics Inc, 2023).
-        </p>
-    </li>
-    <li>
+        <li>
+            <p>
+                Establish a security operations center (SOC) to monitor the
+                organization's security posture and respond to security incidents (IBM 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement security information and event management (SIEM) systems
+                to collect and analyze security event data (Arnold, 2011).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use log aggregation tools to centralize security event logs for
+                analysis (Brain, 2017).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement security incident response plans to quickly and
+                effectively respond to security incidents (Paul et al, 2012).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use incident response playbooks to guide incident response
+                activities (Andreas, 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement security incident detection and response tools to
+                automatically detect and respond to security incidents (Threat intelligence, 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly conduct security awareness training for all employees to
+                educate them on security risks and how to protect the organization
+                from security threats (Jenn, 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use threat intelligence to identify potential threats and
+                vulnerabilities relevant to the organization (ISBuzz Staff, 2015).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use network and application security scanners to identify potential
+                security vulnerabilities in the organization's network and
+                applications (National Cyber Security Centre, 2021).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use penetration testing to identify potential vulnerabilities in
+                the organization's systems and applications (Konstantinos, 2012).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement security-focused design reviews to identify potential
+                security risks in new systems and applications (Paul, 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use security metrics to measure the effectiveness of the
+                organization's security posture and identify potential areas for
+                improvement (ProServeIT, 2017).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use continuous monitoring to identify potential security incidents
+                in real-time (RiskOptics, 2023).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement incident response plans to quickly and effectively
+                respond to security incidents (SecurityMetrics Inc, 2023).
+            </p>
+        </li>
+        <li>
         <p>
             Regularly review and update the organization's security operations
             processes to ensure that they remain effective and up-to-date (Daniel 2019).

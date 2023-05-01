@@ -32,9 +32,9 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Assessments</h1>
+      <h1 style="text-align:center;">Questionnaire</h1>
       <p>The questions below are based on research and analysis carried out on possible cryptojacking attack vectors, threat actors, vulnerabilities and posible mitigation actions. It covers the eight (8) domains of CISSP</p>
-      <p>Read through and answer each of them by providing honest answers, and follow through with the recommendations in other to achieve a more secured system for your organisation.</p>
+      <p>Provide your answers, and follow through with the recommendations in other to achieve a more secured system for your organisation.</p>
       <hr>
       
       <?php if(!empty($asset_securities) && (is_array($asset_securities))) : ?>
@@ -42,7 +42,7 @@
         <form action="result.php" method="POST">
             <table id="stakes" class="table table-striped" style="width:100%; background-color:#f0f0f5; color:white; font-size:12px;">
                 <thead style="background-color:#4da6ff;">
-                    <tr style="font-size:12px; font-weight:bold;">
+                    <tr style="font-size:16px; font-weight:bold;">
                         <th>Question</th>
                         <th>Answer</th>
                     </tr>
@@ -162,7 +162,9 @@
 
                 </tbody>   
             </table>
-            <input type="submit" value="Submit" class="btn btn-info">
+            <div style="text-align:center;">
+                <input type="submit" value="Submit" class="btn btn-info btn-lg">
+            </div>
             </form>
             <div style="margin-bottom:20px"></div>
         </div>

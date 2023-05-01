@@ -16,9 +16,9 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Your Organisation Risk Profile</h1>
+      <h1 style="text-align:center;">Your Organisation Risk Profile</h1>
       <?php
-        echo 'You answered ' . count($answers) . ' out of 16 questions';
+        echo '<p style="text-align:center;">You answered ' . count($answers) . ' out of 16 questions</p>';
         echo "<br />";
         echo "<br />";
       ?><?php
@@ -39,7 +39,7 @@
             echo "<p style='background-color:orange; color:white; font-size:16px; text-align:center;'>Your organisation's risk to Cryptojacking attack is " .$risk.'</p>';
            }
         ?>
-        <p>You answered 'YES' to the question(s) below:</p>
+        <p style="text-align:center;">You answered 'YES' to the question(s) below:</p>
         <?php
             foreach ($answers as $answer) {
                 $tableName = explode("-", $answer)[0];
@@ -53,7 +53,9 @@
 
       <!---This is just for a test----->
       <hr>
-      <h3>Below are our recommendations</h3>
+      <h3 style="text-align:center;">Below are our recommendations</h3>
+      <p style="text-align:center;">Click on each to see the steps to be taken to improve your organisation resilience to cryptopjacking attack</p>
+      <br />
       <?php
         foreach ($answers as $answer) {
           $array[] = explode('-', $answer)[0];
@@ -67,7 +69,7 @@
           $getRecommendation = $getAnswers->recommendations($result);
           $getRecommendation = json_decode($getRecommendation, true);
          
-          echo '<p style="font-size:16px"><a href='.$getRecommendation[0][0]['domain'].".php".'>'.$getRecommendation[0][0]['heading'].'</a></p>';
+          echo '<p style="font-size:16px; text-align:center;"><a href='.$getRecommendation[0][0]['domain'].".php".' target="_blank">'.$getRecommendation[0][0]['heading'].'</a></p>';
         } 
       ?>
     </div>

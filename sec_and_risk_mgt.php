@@ -6,101 +6,100 @@
     <div class="col-sm-2">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1>Security and Risk Management</h1>
-      <p>This tool would help in assessing any organisation's risk level to Cryptojacking attack, and also provide recommendations on how they can mitigate the risk and improve their resilience to Cryptojacking attack.</p>
+      <h1 style="text-align:center;">Security and Risk Management</h1>
+      <p style="text-align:center;">List of possible actions your organisation can take in other to improve its resilience to cryptojacking attack.</p>
       <hr>
-      <h3>How To Use</h3>
       <ol>
-    <li>
-        <p>
-            Develop and implement a formal security and risk management program
-            to ensure that all security risks are identified and managed
-            effectively (Stoneburner, 2002).
-        </p>
-    </li>
-    <li>
-        <p>
-            Conduct regular risk assessments to identify potential security
-            risks and vulnerabilities (Sánchez, 2011).
-        </p>
-    </li>
-    <li>
-        <p>
-            Develop and implement security policies and procedures to ensure
-            that all employees are aware of their responsibilities and
-            obligations regarding security and risk management (Ward and Smith, 2002).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly review and update security policies and procedures to
-            ensure that they are up-to-date and effective in protecting the
-            organization from security threats (Ma, 2009).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement security awareness training for all employees to educate
-            them on security risks and how to protect the organization from
-            security threats (Dash and Ansari, 2022).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use encryption to protect sensitive data in transit and at rest (Ghouse et al, 2019).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement access controls to restrict access to critical resources
-            to only those users who require it (Ferraiolo et al, 1999).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use firewalls and other network security measures to protect the
-            network from external threats (Steward, 2013).
-        </p>
-    </li>
-    <li>
-        <p>
-            Implement intrusion detection and prevention systems to monitor the
-            network for potential security breaches (Beigh and Peer, 2011).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use security incident and event management (SIEM) systems to detect
-            and respond to security incidents in real-time (González-Granadillo et al, 2021).
-        </p>
-    </li>
-    <li>
-        <p>
-            Develop and implement a formal incident response plan to ensure
-            that all security incidents are quickly and effectively addressed (Scanfone et al, 2008).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly test and audit the security controls in place to identify
-            potential vulnerabilities and weaknesses (Shah and Mehtre, 2015).
-        </p>
-    </li>
-    <li>
-        <p>
-            Use third-party risk assessments to identify and manage risks
-            associated with third-party vendors and partners (Saint-Germain, 2005).
-        </p>
-    </li>
-    <li>
-        <p>
-            Regularly review and update the organization's business continuity
-            and disaster recovery plans to ensure that critical resources can
-            be quickly restored in the event of a security breach or natural
-            disaster (Wallace and Webber, 2017).
-        </p>
-    </li>
-    <li>
+        <li>
+            <p>
+                Develop and implement a formal security and risk management program
+                to ensure that all security risks are identified and managed
+                effectively (Stoneburner, 2002).
+            </p>
+        </li>
+        <li>
+            <p>
+                Conduct regular risk assessments to identify potential security
+                risks and vulnerabilities (Sánchez, 2011).
+            </p>
+        </li>
+        <li>
+            <p>
+                Develop and implement security policies and procedures to ensure
+                that all employees are aware of their responsibilities and
+                obligations regarding security and risk management (Ward and Smith, 2002).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly review and update security policies and procedures to
+                ensure that they are up-to-date and effective in protecting the
+                organization from security threats (Ma, 2009).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement security awareness training for all employees to educate
+                them on security risks and how to protect the organization from
+                security threats (Dash and Ansari, 2022).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use encryption to protect sensitive data in transit and at rest (Ghouse et al, 2019).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement access controls to restrict access to critical resources
+                to only those users who require it (Ferraiolo et al, 1999).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use firewalls and other network security measures to protect the
+                network from external threats (Stewart, 2013).
+            </p>
+        </li>
+        <li>
+            <p>
+                Implement intrusion detection and prevention systems to monitor the
+                network for potential security breaches (Beigh and Peer, 2011).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use security incident and event management (SIEM) systems to detect
+                and respond to security incidents in real-time (González-Granadillo et al, 2021).
+            </p>
+        </li>
+        <li>
+            <p>
+                Develop and implement a formal incident response plan to ensure
+                that all security incidents are quickly and effectively addressed (Scanfone et al, 2008).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly test and audit the security controls in place to identify
+                potential vulnerabilities and weaknesses (Shah and Mehtre, 2015).
+            </p>
+        </li>
+        <li>
+            <p>
+                Use third-party risk assessments to identify and manage risks
+                associated with third-party vendors and partners (Saint-Germain, 2005).
+            </p>
+        </li>
+        <li>
+            <p>
+                Regularly review and update the organization's business continuity
+                and disaster recovery plans to ensure that critical resources can
+                be quickly restored in the event of a security breach or natural
+                disaster (Wallace and Webber, 2017).
+            </p>
+        </li>
+        <li>
         <p>
             Regularly report on the status of the security and risk management
             program to senior management and stakeholders to ensure that they
