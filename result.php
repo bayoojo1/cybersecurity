@@ -20,7 +20,6 @@
       <?php
         echo '<p style="text-align:center;">You answered ' . count($answers) . ' out of 16 questions</p>';
         echo "<br />";
-        echo "<br />";
       ?><?php
           if(count($answers) === 0) {
             echo "<p style='font-size:20px; background-color:black; color:white; text-align:center;'>You did not provide answer to any of the questions!</p>";
@@ -30,15 +29,23 @@
             $risk = '';
            if(count($answers) >= 12) {
             $risk = 'Low';
-            echo "<p style='background-color:green; color:white; font-size:16px; text-align:center'>Your organisation's risk to Cryptojacking attack is " .$risk.'</p>';
+            echo "<div style='text-align:center;'>";
+            echo "<span style='background-color:green; color:white; font-size:26px; padding:20px;'>Risk is " .$risk.'</span>';
+            echo "</div>";
            } else if(count($answers) <= 7) {
             $risk = 'High';
-            echo "<p style='background-color:red; color:white; font-size:16px; text-align:center;'>Your organisation's risk to Cryptojacking attack is " .$risk.'</p>';
+            echo "<div style='text-align:center;'>";
+            echo "<span style='background-color:red; color:white; font-size:26px; padding:20px;'>Risk is " .$risk.'</span>';
+            echo "</div>";
            } else {
             $risk = 'Medium';
-            echo "<p style='background-color:orange; color:white; font-size:16px; text-align:center;'>Your organisation's risk to Cryptojacking attack is " .$risk.'</p>';
+            echo "<div style='text-align:center;'>";
+            echo "<span style='background-color:orange; color:white; font-size:26px; padding:20px;'>Risk is " .$risk.'</span>';
+            echo "</div>";
            }
         ?>
+        <br />
+        <br />
         <p style="text-align:center;">You answered 'YES' to the question(s) below:</p>
         <?php
             foreach ($answers as $answer) {
@@ -49,29 +56,38 @@
                 echo  '<pre>'.$theQuestion[0]['question'].'</pre>';
             }
           
-        ?>
-
-      <!---This is just for a test----->
-      <hr>
-      <h3 style="text-align:center;">Below are our recommendations</h3>
-      <p style="text-align:center;">Click on each to see the steps to be taken to improve your organisation resilience to cryptopjacking attack</p>
-      <br />
-      <?php
-        foreach ($answers as $answer) {
-          $array[] = explode('-', $answer)[0];
-        }
-        
+        ?><?php 
         $domains = array('asset_security', 'comm_and_net_sec', 'id_and_assess_mgt', 'security_ops', 'sec_and_risk_mgt', 'sec_arch_and_eng', 'sec_assmt_and_testing', 'soft_dev_sec');
-        $results = array_diff($domains, $array);
-        
-        foreach ($results as $result) {
-          //get the recommendations from the db
-          $getRecommendation = $getAnswers->recommendations($result);
-          $getRecommendation = json_decode($getRecommendation, true);
-         
-          echo '<p style="font-size:16px; text-align:center;"><a href='.$getRecommendation[0][0]['domain'].".php".' target="_blank">'.$getRecommendation[0][0]['heading'].'</a></p>';
-        } 
+
+          foreach ($answers as $answer) {
+            $count[] = explode('-', $answer)[0];
+          }
+          $results = array_diff($domains, $count);
+
+          if(count($answers) === 16) {
+            echo '<br />';
+            echo '<p style="text-align:center; font-size:26px;">No recommendation</p>';
+            echo '<p style="text-align:center; font-size:16px;">Your organisation meets all the requirements in the CISSP eight domains.</p>';
+            echo '<br />';
+          } else if(count($results) === 0) {
+            echo '<p style="text-align:center; font-size:26px;">No recommendation</p>';
+            echo '<p style="text-align:center; font-size:16px;">Even though your organisation did not meet (ALL) the requirements in the CISSP eight domains as provided in this tool, you\'ve implemented at least one requirement in each of the 8 domains.</p>';
+          } else {
+            echo '<hr>';
+            echo '<h3 style="text-align:center;">Below are our recommendations</h3>';
+            echo '<p style="text-align:center;">Click on each to see the steps to be taken to improve your organisation resilience to cryptopjacking attack</p>';
+            echo '<br />';
+            
+            foreach ($results as $result) {
+              //get the recommendations from the db
+              $getRecommendation = $getAnswers->recommendations($result);
+              $getRecommendation = json_decode($getRecommendation, true);
+            
+              echo '<p style="font-size:16px; text-align:center;"><a href='.$getRecommendation[0][0]['domain'].".php".' target="_blank">'.$getRecommendation[0][0]['heading'].'</a></p>';
+            } 
+          }
       ?>
+     
     </div>
     <div class="col-sm-2">
     </div>
